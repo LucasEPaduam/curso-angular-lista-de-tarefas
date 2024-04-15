@@ -13,15 +13,17 @@ export class ListComponent {
 
   public addItem = signal(true);
 
-  #setListItems = signal<IListItems[]>([this.#parseItems()]);
-  getListItems = this.#setListItems.asReadonly();
+  #setListItems = signal<IListItems[]>(this.#parseItems());
+  public getListItems = this.#setListItems.asReadonly();
 
   #parseItems(){
     return JSON.parse(localStorage.getItem('@mylist') || '[]');
   }
 
   public getInputAndAddItem(value: IListItems){
-    localStorage.setItem('@mylist', JSON.stringify([value]))
+    localStorage.setItem('@mylist', JSON.stringify([...this.#setListItems(), value]));
+
+    return this.#setListItems.set(this.#parseItems());
   }
 
 }
