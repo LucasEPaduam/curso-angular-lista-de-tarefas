@@ -4,11 +4,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { IListItems } from '../../interface/IListItems.interface';
 
 @Component({
-  selector: 'app-input-list-item',
+  selector: 'app-input',
   standalone: true,
   imports: [],
-  templateUrl: './input-list-item.component.html',
-  styleUrl: './input-list-item.component.scss'
+  templateUrl: './input.component.html',
+  styleUrl: './input.component.scss'
 })
 export class InputListItemComponent {
 

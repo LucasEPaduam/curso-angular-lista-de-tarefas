@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputListItemComponent } from './input-list-item.component';
+import { InputAddItemComponent } from './add.component';
 
-describe('InputListItemComponent', () => {
-  let component: InputListItemComponent;
-  let fixture: ComponentFixture<InputListItemComponent>;
+describe('InputAddItemComponent', () => {
+  let component: InputAddItemComponent;
+  let fixture: ComponentFixture<InputAddItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [InputListItemComponent]
+      imports: [InputAddItemComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(InputListItemComponent);
+    fixture = TestBed.createComponent(InputAddItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

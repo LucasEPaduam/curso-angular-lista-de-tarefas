@@ -1,8 +1,8 @@
 import { Component, signal } from '@angular/core';
 
 //Components
-import { InputAddItemComponent } from '../../components/input-add-item/input-add-item.component';
-import { InputListItemComponent } from '../../components/input-list-item/input-list-item.component';
+import { InputAddItemComponent } from '../../components/add-item/add.component';
+import { InputListItemComponent } from '../../components/input-item/input.component';
 
 //Interface
 import { IListItems } from '../../interface/IListItems.interface';

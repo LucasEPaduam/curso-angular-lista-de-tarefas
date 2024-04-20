@@ -4,11 +4,11 @@ import { NgClass } from '@angular/common';
 
 
 @Component({
-  selector: 'app-input-add-item',
+  selector: 'app-add',
   standalone: true,
   imports: [NgClass],
-  templateUrl: './input-add-item.component.html',
-  styleUrl: './input-add-item.component.scss'
+  templateUrl: './add.component.html',
+  styleUrl: './add.component.scss'
 })
 export class InputAddItemComponent {
 
