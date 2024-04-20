@@ -1,6 +1,6 @@
 @if(!getListItems().length){
     <div class="container">
-        <img src="assets/img/task-list-null.png" alt="Sua lista está vazia" Loading="eager"/>
+        <img src="assets/img/task-list-null.png" alt="Sua lista está vazia" width="200" height="200" Loading="eager"/>
     
         @if(addItem()){
             <button class="btn btn-primary" (click)="addItem.set(false)">Crie uma lista de tarefas</button>
