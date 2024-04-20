@@ -23,4 +23,13 @@ export class InputListItemComponent {
     return this.outputUpdateItemCheckbox.emit({ id, checked});
   }
 
+  @Output() public outputUpdateItemText = new EventEmitter<{
+    id: string;
+    value: string;
+  }>();
+
+  public updateItemText(id: string, value: string){
+    return this.outputUpdateItemText.emit({ id, value});
+  }
+
 }

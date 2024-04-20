@@ -61,6 +61,21 @@ export class ListComponent {
     ('@mylist', JSON.stringify(this.#setListItems()));
   }
 
+  public updateItemText(newItem: { id: string; value: string}){
+    this.#setListItems.update((oldValue: IListItems[]) => {
+      oldValue.filter((res) => {
+        if(res.id === newItem.id){
+          res.value = newItem.value;
+          return res;
+        }
+        return res;
+      });
+      return oldValue;
+    });
+    return localStorage.setItem
+    ('@mylist', JSON.stringify(this.#setListItems()));
+  }
+
   public deleteAllItems(){
     localStorage.removeItem('@mylist');
     return this.#setListItems.set(this.#parseItems());
