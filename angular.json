@@ -96,12 +96,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "buildTarget": "curso-angular-lista-de-tarefas:build:production"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "562267d7-f412-47e6-a0e0-8b71ef3d24fe"
   }
 }

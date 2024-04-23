@@ -1,27 +1,14 @@
-# CursoAngularListaDeTarefas
+# Angular Lista De Tarefas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Projeto desenvolvido no curso de Angular com TypeScript. 
+Apresenta uma página onde é possível criar uma lista de tarefas, edita-las, indicar se as mesmas foram concluídas ou continuam pendentes, excluir tarefas individualmente ou apagar a lista. A persistência é realizada atrvés do localstorage. Neste projeto foram reforçados os conceitos de Sinais, Input e Output do Angular 17 possibilitando a troca de informações entre componentes.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />](https://code.visualstudio.com/)
+[<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />](https://angular.io/)
+[<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />](https://www.typescriptlang.org/)
 
-## Code scaffolding
+## Preview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[<img src="https://github.com/LucasEPaduam/curso-angular-lista-de-tarefas/blob/master/src/assets/img/Screenshot 2024-04-22 220018.png?raw=true">](https://lucasepaduam.github.io/curso-angular-lista-de-tarefas/)
