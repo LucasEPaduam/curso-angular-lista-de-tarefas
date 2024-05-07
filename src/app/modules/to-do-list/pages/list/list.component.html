@@ -10,7 +10,7 @@
     </div>
 }@else {
     <app-add [inputListItems]="getListItems()"  (outputAddListItem)="getInputAndAddItem($event)"/>
-}
+
 
 <main class="container">
     @if(listItemsStage('pending').length){
@@ -35,5 +35,5 @@
     <button class="btn btn-danger" (click)="deleteAllItems()">Deletar todos os Itens</button>
 </footer>
 
-
+}
 
